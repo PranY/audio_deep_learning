@@ -1,5 +1,7 @@
 # Audio deep learning challenge
 
+## Note: Inference will not work because the model uploaded is a dummy file. Please clone and run full_train.py with your data.
+
 ## Overview
 - Task: To create a 'good' classification model on audio data
 - Ask:
