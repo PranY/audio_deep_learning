@@ -1,0 +1,5 @@
+fastai2[dev]
+ipykernel
+click
+packaging
+git+git://github.com/rbracco/fastai2_audio.git
