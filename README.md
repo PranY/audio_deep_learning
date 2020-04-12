@@ -15,7 +15,7 @@
     - Docker container
     
 ## Instructions:
-Once you clone, you need to run the below commands in order:
+Once you clone, you need to train on your data using full_train.py and then run the below commands in order:
 
 `$ docker build -t audio_deep_learning:latest .`
 
@@ -24,7 +24,7 @@ Once you clone, you need to run the below commands in order:
 
 Above build commands take about 4 mins, depending on your network speed. When you run the container, it prints the usage for the inference API with examples and starts bash for you. The second command also allows you to mount a local folder from your machine to test audio files.
 
-Test calls will look like below commands, I'm also attaching a snapshot of the output from below commands to show what is expected.
+Test calls will look like below commands.
 
 `$ inference example.wav`
 
